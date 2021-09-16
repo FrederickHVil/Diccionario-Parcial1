@@ -6,4 +6,27 @@ html{
 h1{
     text-align: center;
     font-size: 60px;
+    color: rgb(232, 255, 21);
+}
+table{
+    border: 1px;
+    border-collapse: collapse;
+    border-color: rgb(232, 255, 21);
+}
+th{
+    border: 1px solid;
+    border-color: rgb(232, 255, 21);
+    padding: 8px;
+}
+#search{
+    background-color: rgb(232, 255, 21);
+    font-weight: bold;
+    font-size: 18px;
+    width: 100px; height: 30px;
+
+}
+#word-input{
+    width: 200px; height: 30px;
+    font-size: 18px;
+
 }
