@@ -16,7 +16,7 @@ fetch('https://api.dictionaryapi.dev/api/v2/entries/en/red')
 
 
         let respuesta = document.getElementById("mostrar")
-        respuesta.innerHTML = `<p>${data.word}</p>`
+        respuesta.innerHTML = `<p>${data.definition}</p>`
 
         console.log(data)
 
